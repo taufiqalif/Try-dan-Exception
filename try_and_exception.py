@@ -1,3 +1,6 @@
+# Taufiq Alif
+# Belajar program python
+
 print("="*25)
 print("masukan angka")
 print("="*25)
@@ -9,17 +12,13 @@ while True:
         hasil = penyebut/pembilang
         break
     except ValueError:
+        print("="*25)
         print("yang anda masukan bukan angka\n")
+        print("="*25)
     except ZeroDivisionError:
+        print("="*25)
         print("yang anda masukan angka nol, pilih angka yg lain\n")
-
-    # type of exception errors:
-        # 1.IOError
-        # 2.ImportError
-        # 3.ValueError
-        # 4.Devision by zero
-        # 5.KeyboardInterupted
-        # 6.EOFError
+        print("="*25)
 
 print("="*25)
 print("hasil pembagian adalah: ", hasil)
