@@ -29,14 +29,14 @@
 ### Code
 
 	while True:
-    	    try:
+	    try:
         	penyebut = int(input("masukan penyebut: "))
         	pembilang = int(input("masukan pembilang: "))
         	hasil = penyebut/pembilang
         	break
-    	     except ValueError:
+	    except ValueError:
         	print("yang anda masukan bukan angka\n")
-    	     except ZeroDivisionError:
+	    except ZeroDivisionError:
         	print("yang anda masukan angka nol, pilih angka yg lain\n")
 	
 	print("hasil pembagian adalah: ", hasil)
